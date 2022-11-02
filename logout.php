@@ -2,8 +2,8 @@
 session_start();
 $result = session_destroy();
 
-if ($result) {  //성공시 True, 실패시 False 반환
+if ($result) {  //로그아웃에 성공했을 경우
 ?><script>
-        history.back();
+        history.back(); //전 페이지로 이동()
     </script>
 <?php } ?>
