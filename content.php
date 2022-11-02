@@ -51,7 +51,7 @@
         </thead>
 //table을 만들어 앞의 150px에는 name을, 뒤의 500px에는 title을 적는 칸임을 나타내는 코드
         <tbody>
-            <?php
+            <?php 
             while ($rows = mysqli_fetch_assoc($result)) { //모든 board에 대해서 진행
                 ?>
                 <tr>     
