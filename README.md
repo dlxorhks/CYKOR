@@ -53,7 +53,7 @@ create table member (
 ## 읽기
 - 비회원, 회원 모두 content 창에서 글의 title을 누르면 작성자의 name과 그 글의 content를 볼 수 있습니다.
 
-##참조글
+## 참조글
 - https://hooneee.tistory.com/334
 - https://dawitblog.tistory.com/10
 - https://lyk00331.tistory.com/79
