@@ -51,4 +51,4 @@ create table member (
 - 삭제 : 자신이 쓴 글을 게시판에서 삭제할 수 있습니다.
 
 ## 읽기
--비회원, 회원 모두 content 창에서 글의 title을 누르면 작성자의 name과 그 글의 content를 볼 수 있습니다.
+- 비회원, 회원 모두 content 창에서 글의 title을 누르면 작성자의 name과 그 글의 content를 볼 수 있습니다.
