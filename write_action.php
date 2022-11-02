@@ -25,5 +25,4 @@ else { //wrtie에 실패한 경우
     </script>
     <?php
 }
-mysqli_close($link);
 ?>
