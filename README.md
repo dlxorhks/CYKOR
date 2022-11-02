@@ -52,3 +52,9 @@ create table member (
 
 ## 읽기
 - 비회원, 회원 모두 content 창에서 글의 title을 누르면 작성자의 name과 그 글의 content를 볼 수 있습니다.
+
+##참조글
+- https://hooneee.tistory.com/334
+- https://dawitblog.tistory.com/10
+- https://lyk00331.tistory.com/79
+- https://hanuscrypto.tistory.com/entry/Php%EB%A1%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B01-%EA%B8%B0%EC%B4%88-Setting
