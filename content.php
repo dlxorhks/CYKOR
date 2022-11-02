@@ -41,7 +41,7 @@
         <?php //로그인 버튼
     }
     ?>
-    <p style="font-size:40px; text-align:center">두근두근 게시판</p> //게시판 이름 설정
+    <p style="font-size:40px; text-align:center">게시판</p> //게시판 이름 설정
     <table align=center> 
         <thead align="center">
             <tr>
