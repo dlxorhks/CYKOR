@@ -25,7 +25,7 @@
     <?php
     $link = mysqli_connect('127.0.0.1', 'root', '1234', 'web1');
     $number = $_GET['number'];
-    $query = "select title, content, username, id from board where number = $number";
+    $query = "select title, content, username, id from board where number = $number"; //get 형식으로 받은 number와 동일한 number를 가진 board table의 모든 값을 가져오는 쿼리
     $result = $link->query($query);
     $rows = mysqli_fetch_assoc($result);
     $title = $rows['title'];
@@ -33,23 +33,23 @@
     $id = $rows['id'];
     session_start();
     ?>
-    <form method="POST" action="update_action.php">
+    <form method="POST" action="update_action.php"> //input 값들을 post 형식으로 update_action.php에게 전달
         <table class="tab" align=center width=auto>
             <tr>
                 <td>name</td>
-                <td><input type="hidden" name="name" value="<?= $_SESSION['username'] ?>"><?= $_SESSION['username'] ?></td>
+                <td><input type="hidden" name="name" value="<?= $_SESSION['username'] ?>"><?= $_SESSION['username'] ?></td> //username을 출력하고, post 형식으로 전달
             </tr>
             <tr>
                 <td>title</td>
-                <td><input type=text name=title size=80 value="<?= $title ?>"></td>
+                <td><input type=text name=title size=80 value="<?= $title ?>"></td> //새로운 title 입력
             </tr>
             <tr>
                 <td>content</td>
-                <td><textarea name=content cols=75 rows=20><?= $content ?></textarea></td>
+                <td><textarea name=content cols=75 rows=20><?= $content ?></textarea></td> //새로운 content 입력
             </tr>
         </table>
             <center>
-                <input type="hidden" name="number" value="<?= $number ?>">
+                <input type="hidden" name="number" value="<?= $number ?>"> //number 변수를 post 형식으로 전달
                 <input style="height:30x; width:120px; font-size:15px;" type="submit" value="submit">
             </center>
             </td>
