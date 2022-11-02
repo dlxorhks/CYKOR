@@ -5,9 +5,9 @@
     <meta charset='utf-8'>
     <style>
         table.tab {
-            border-spacing: 1px;
+            border-spacing: 2px;
             text-align: left;
-            line-height: 1.5;
+            line-height: 2;
             border-top: 1px solid; }
         table.tab tr {
             width: 50px;
