@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect('127.0.0.1', 'root', '1234', 'web1');
+$link = mysqli_connect('3.34.99.164', 'dlxorhks', 'password', 'web1', '9876');
 $number = $_GET['number'];
 $query = "select id from board where number = $number"; //board의 number가 get 형식으로 받은 number 변수와 동일한 board의 id를 가져오는 쿼리
 $result = $link->query($query);
