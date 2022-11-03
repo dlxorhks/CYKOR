@@ -24,7 +24,7 @@
 
 <body>
     <?php
-    $link = mysqli_connect('127.0.0.1', 'root', '1234', 'web1'); 
+    $link = mysqli_connect('3.34.99.164', 'dlxorhks', 'password', 'web1', '9876');
     $query = "select * from board order by number desc"; //number 순서로 모든 board table을 database로부터 가져오는 쿼리
     $result = mysqli_query($link, $query);
 
