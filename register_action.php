@@ -1,5 +1,5 @@
 <?php
-$link = mysqli_connect('127.0.0.1', 'root', '1234', 'web1');
+$link = mysqli_connect('3.34.99.164', 'dlxorhks', 'password', 'web1', '9876');
 $id = $_POST['id'];
 $pw = $_POST['pw'];
 $name = $_POST['name'];
