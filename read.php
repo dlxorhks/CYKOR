@@ -44,7 +44,7 @@
 
 <body>
     <?php
-    $link = mysqli_connect('127.0.0.1', 'root', '1234', 'web1');
+    $link = mysqli_connect('3.34.99.164', 'dlxorhks', 'password', 'web1', '9876');
     $number = $_GET['number'];
     session_start();
     $query = "select title, content, username, id from board where number = $number"; //get 형식으로 받아온 변수와 number가 동일한 board의 값들을 모두 가져오는 쿼리
