@@ -58,3 +58,6 @@ create table member (
 - https://dawitblog.tistory.com/10
 - https://lyk00331.tistory.com/79
 - https://hanuscrypto.tistory.com/entry/Php%EB%A1%9C-%EB%A1%9C%EA%B7%B8%EC%9D%B8-%ED%8E%98%EC%9D%B4%EC%A7%80-%EB%A7%8C%EB%93%A4%EA%B8%B01-%EA%B8%B0%EC%B4%88-Setting
+
+## 서버
+http://3.34.99.164/content.php
